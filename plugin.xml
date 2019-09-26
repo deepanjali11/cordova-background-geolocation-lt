@@ -55,7 +55,7 @@
     <platform name="android">
         <preference name="GOOGLE_API_VERSION" default="16.+" />
         <framework src="com.google.android.gms:play-services-location:$GOOGLE_API_VERSION"/>
-        <preference name="APPCOMPAT_VERSION" default="28.+" />
+        <variable name="APPCOMPAT_VERSION" value="27.0.0" />
         <framework src="com.android.support:appcompat-v7:$APPCOMPAT_VERSION"/>
         <preference name="OKHTTP_VERSION" default="3.12.+" />
         <framework src="com.squareup.okhttp3:okhttp:$OKHTTP_VERSION"/>
